@@ -10,7 +10,6 @@ main {
   margin: 20px auto;
   position: relative;
 }
-
 .carousel {
   overflow-x: hidden;
 }
@@ -30,6 +29,28 @@ main {
 .carousel .product picture img {
   width: 350px;
   height: 250px;
+}
+.carousel .number-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: #ffffffa4;
+  padding: 2px;
+  border-radius: 5px;
+}
+.carousel .number-part img {
+  width: 30px;
+  margin-right: 5px;
+}
+.carousel .number-part .f-number {
+  margin-right: 5px;
+}
+.carousel .number-part .of {
+  margin-right: 5px;
 }
 .carousel .arrow-part {
   display: flex;
